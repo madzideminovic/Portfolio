@@ -3,9 +3,18 @@ body{
   padding: 0;
   height: 100vh;
 }
+.home{
+  position: relative;
+}
 #particles-js {
-  height: 100%;
-  background-color: #fff;
-  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
   }
 
+.logo{
+  height: 50px;
+  width: 50px;
+}
