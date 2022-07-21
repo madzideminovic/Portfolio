@@ -2,15 +2,29 @@ body{
   margin: 0;
   padding: 0;
   height: 100vh;
+  font-family: 'poppins', sans-serif;
 }
+
+.pozisn{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgb(146 161 176 / 30%);
+}
+
 .home{
   position: relative;
 }
 #particles-js {
+  
+  background-color: #f7f7f7;
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   }
 
@@ -18,3 +32,51 @@ body{
   height: 50px;
   width: 50px;
 }
+
+.distance{
+  margin-top: 200px;
+}
+.avatar-distance{
+  margin-top: 100px;
+}
+.home .content h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #002057;
+}
+.home .content h2 span {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #1499a7;
+}
+.home .content p {
+  font-size: 30px;
+  color: #000;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.home .content p span {
+  font-size: 30px;
+  color: #1499a7;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+
+.avatar{
+  margin: auto;
+  display: block;
+  width: 300px;
+  padding-bottom: 130px;
+}
+
+.home .btn {
+  position: absolute;
+  line-height: 0;
+  padding: 1.4rem 2rem;
+  border-radius: 4em;
+  transition: 0.5s;
+  color: #fff;
+  background: #1399a7;
+  box-shadow: 0px 5px 18px rgb(20 115 125);
+}
+
