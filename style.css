@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 10000px;
   font-family: 'poppins', sans-serif;
 }
 
@@ -16,16 +16,16 @@ body{
 }
 
 .home{
-  position: relative;
+  min-height: 100vh
 }
 #particles-js {
   
   background-color: #f7f7f7;
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
   }
 
 .logo{
@@ -34,11 +34,9 @@ body{
 }
 
 .distance{
-  margin-top: 200px;
+  margin-top: 280px;
 }
-.avatar-distance{
-  margin-top: 100px;
-}
+
 .home .content h2 {
   font-size: 3rem;
   font-weight: 800;
@@ -65,8 +63,16 @@ body{
 .avatar{
   margin: auto;
   display: block;
-  width: 300px;
-  padding-bottom: 130px;
+  width: 400px;
+  padding: 180px 0;
+}
+.avatar svg{
+  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+  border-radius: 50%;
+}
+.avatar svg:hover{
+  box-shadow: 0 2px 8px rgb(0 0 0 / 30%);
+  transition: 0.3s;
 }
 
 .home .btn {
@@ -77,6 +83,6 @@ body{
   transition: 0.5s;
   color: #fff;
   background: #1399a7;
-  box-shadow: 0px 5px 18px rgb(20 115 125);
+  box-shadow: 0px 1px 14px rgb(20 115 125);
 }
 
