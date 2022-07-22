@@ -90,13 +90,13 @@ body{
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  background-color: #ffae00;
+  background-color: #ffd900;
   margin-top: 80px;
   margin-right: 15px;
 }
 
 .box-icon a i{
-  color: #fff;
+  color: #000;
   line-height: 40px;
   margin-left: 12px;
 }
@@ -184,6 +184,7 @@ body{
 .work {
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
+  padding-bottom: 200px;
 }
 .work h2 {
   color: #fff;
@@ -201,12 +202,25 @@ body{
   overflow: hidden;
   height: 20rem;
   width: 100%;
+  margin-bottom: 30px;
 }
 .work .box-container .box img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
+.work .box-container .box img.image-projects {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  object-fit: contain;
+  background-color: #f0db4f;
+  padding-bottom: 50px;
+}
+
+
 .work .box-container .box .content {
   transition: 0.3s all ease;
   height: 100%;
@@ -292,4 +306,8 @@ body{
 }
 .work .viewall .btn:hover i {
   transform: translateX(5px);
+}
+
+.image-projects{
+  width: 50px;
 }
