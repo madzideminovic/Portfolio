@@ -147,10 +147,11 @@ body{
 .skills-container{
   background-color: #330279;
   border-radius: 15px;
+  padding: 20px;
 }
 
  .bar{
-  margin-bottom: 15px;
+  
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgb(0 0 0 / 20%);
@@ -165,4 +166,14 @@ body{
 .info{
   color: #fff;
   text-align: center;
+}
+
+.info p{
+  font-size: 15px;
+  margin-top: 10px
+}
+
+.iconss{
+  width: 50px;
+  height: 50px;
 }
