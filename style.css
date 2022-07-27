@@ -108,11 +108,22 @@ footer{
   margin-right: 15px;
 }
 
-.box-icon a i{
+.box-icon a i {
   color: #000;
   line-height: 40px;
-  margin-left: 12px;
+  margin-left: 10px;
+  font-size: 20px;
 }
+
+.box-icon a:hover{
+  color: #fff;
+}
+
+.box-icon:hover, .box-icon i:hover{
+  background-color: #1399a7;
+  color: #fff;
+}
+
 
 .me_image{
   width: 300px;
@@ -483,6 +494,10 @@ p.footer-heading {
 .quick-links span{
   margin-bottom: 15px;
   font-size: 15px;
+}
+
+.quick-links i{
+  color: #ffd900;
 }
 
 /* contact section media queries starts */
