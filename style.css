@@ -5,6 +5,11 @@ body{
   transition: all 0.2s linear;
 }
 
+footer{
+  background: linear-gradient(to bottom, #000031, #00002c);
+  color: #fff;
+}
+
  .pozisn{
   position: relative;
   top: 0;
@@ -31,6 +36,12 @@ body{
 .logo{
   height: 50px;
   width: 50px;
+}
+
+
+.logo-footer{
+  height: 80px;
+  width: 80px;
 }
 
 .distance{
